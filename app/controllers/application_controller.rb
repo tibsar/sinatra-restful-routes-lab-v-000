@@ -16,7 +16,6 @@ class ApplicationController < Sinatra::Base
     ### 
     
     @recipes = Recipe.all
-    binding.pry 
     erb :recipes
   end 
   
