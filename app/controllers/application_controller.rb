@@ -8,7 +8,5 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
   
-  #google.com  #=> /
-  #google.com/images  #=> /images
   
 end
